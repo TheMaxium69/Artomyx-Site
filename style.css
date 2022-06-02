@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+/*   display: grid;
+  place-items: center; */
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background: 
+    linear-gradient(to bottom, transparent, rgba(0,0,0,.5)),
+    #efefef;
+  perspective:200vw;
+}
+
+#single_div {
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background-image: url('assets/back.png');
+  background-size: 100% 100%;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,.25); 
+  cursor: pointer;
+  margin: 1rem auto; 
+}
+
+#single_div img {
+  position: absolute;
+  width: 100%;  
+}
+
+.devin {
+  transform-origin: 50% 0%;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,.25));
+}
+
+.shimmer {
+  mix-blend-mode: overlay;
+  top: 45%;
+  transform: skewY(-2deg);
+  opacity: .75;
+}
+
+a {
+  color: mediumseagreen;
+}
+
+.shopReturns {
+  color: #333;
+  font-family: system-ui;
+  text-align: center;
+	width: 100%;
+	margin: 3rem auto;
+	padding-inline-start: 0px;
+	z-index: 100;
+	text-align: center;
+}
+.shopReturns li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+.shopReturns img {
+	height: 50px;
+	max-width: 175px;
+}
