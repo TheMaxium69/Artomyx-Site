@@ -1,3 +1,3 @@
-# Artomix-Site
+# Artomyx-Site
 
-Site de l'album Artomix du projet Sélémusium
+Site de l'album Artomyx du projet Sélémusium
